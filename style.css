@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navBar nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 65px;
+}
+.navBar nav ul {
+  display: flex;
+  margin-left: auto;
+  margin-right: 10px;
+  gap: 30px;
+  list-style: none;
+}
+.navBar nav button {
+  background: black;
+  color: white;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navBar nav h1 {
+  font-size: 18px;
+}
+.navBar nav ul li:hover {
+  color: gray;
+  cursor: pointer;
+}
+.navBar nav button:hover {
+  background-color: white;
+  color: gray;
+}
